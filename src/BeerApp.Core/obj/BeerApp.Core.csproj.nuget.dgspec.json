@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/BeerApp.Core.csproj": {}
+  },
+  "projects": {
+    "/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/BeerApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/BeerApp.Core.csproj",
+        "projectName": "BeerApp.Core",
+        "projectPath": "/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/BeerApp.Core.csproj",
+        "packagesPath": "/Users/m.moosbachersprinteins.com/.nuget/packages/",
+        "outputPath": "/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/m.moosbachersprinteins.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Redux.NET": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "redux.NET-thunk": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

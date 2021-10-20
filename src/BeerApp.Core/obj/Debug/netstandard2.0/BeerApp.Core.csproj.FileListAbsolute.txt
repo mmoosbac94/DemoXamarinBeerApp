@@ -1,0 +1,13 @@
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/bin/Debug/netstandard2.0/BeerApp.Core.deps.json
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/bin/Debug/netstandard2.0/BeerApp.Core.dll
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/bin/Debug/netstandard2.0/BeerApp.Core.pdb
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/bin/Debug/netstandard2.0/Mono.Android.dll
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/bin/Debug/netstandard2.0/Mono.Android.pdb
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.AssemblyInfoInputs.cache
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.AssemblyInfo.cs
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.csproj.CoreCompileInputs.cache
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.csproj.CopyComplete
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.dll
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.pdb
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Core/obj/Debug/netstandard2.0/BeerApp.Core.csproj.AssemblyReference.cache

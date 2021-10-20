@@ -35,5 +35,7 @@ namespace BeerApp.Core.Reducer
 
         //TODO: Wird FetchFoodParingBeerDataAction überhaupt benötigt
         //  oder kann man sich diese Action + Creator sparen?
+
+        //TODO: Wozu dienen MvxInteractions?
     }
 }

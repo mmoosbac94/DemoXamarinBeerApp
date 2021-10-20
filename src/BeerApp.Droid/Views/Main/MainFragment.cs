@@ -11,6 +11,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using BeerApp.Core.ViewModels.Main;
+using MvvmCross.Platforms.Android.Binding.BindingContext;
 using MvvmCross.Platforms.Android.Presenters.Attributes;
 
 namespace BeerApp.Droid.Views.Main
@@ -18,14 +19,22 @@ namespace BeerApp.Droid.Views.Main
     [MvxFragmentPresentation(typeof(MainContainerViewModel), Resource.Id.content_frame)]
     public class MainFragment : BaseFragment<MainViewModel>
     {
+
         protected override int FragmentLayoutId => Resource.Layout.fragment_main;
 
 
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            base.OnCreateView(inflater, container, savedInstanceState);
 
-            //_ = ViewModel.GetFoodParingBeerData("meat");
+            View mainView = this.BindingInflate(Resource.Layout.fragment_main, container, false);
+
+            Button testButton = mainView.FindViewById<Button>(Resource.Id.testButton);
+            testButton.Click += delegate {
+                ViewModel.GetFoodParingBeerData.Execute("cheese");
+            };
+
+            return mainView;
+
         }
     }
 }

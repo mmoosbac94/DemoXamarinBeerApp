@@ -465,3 +465,4 @@
 /Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/android/assets/thunk.NET.dll

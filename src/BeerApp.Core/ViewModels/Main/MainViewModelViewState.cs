@@ -38,5 +38,22 @@ namespace BeerApp.Core.ViewModels.Main
                 RaisePropertyChanged(() => ShowErrorMessage);
             }
         }
+
+
+
+
+
+
+        private string _test;
+        public string Test
+        {
+            get => _test;
+            set
+            {
+                _test = value;
+                RaisePropertyChanged(() => Test);
+            }
+        }
+
     }
 }

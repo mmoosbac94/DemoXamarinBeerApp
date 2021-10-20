@@ -142,14 +142,14 @@ public final class R {
 		public static final int tag_transition_group = 0x7f08019f;
 		public static final int tag_unhandled_key_event_manager = 0x7f0801a0;
 		public static final int tag_unhandled_key_listeners = 0x7f0801a1;
-		public static final int text = 0x7f0801a7;
-		public static final int text2 = 0x7f0801a8;
-		public static final int time = 0x7f0801b8;
-		public static final int title = 0x7f0801b9;
-		public static final int view_tree_lifecycle_owner = 0x7f0801d3;
-		public static final int view_tree_saved_state_registry_owner = 0x7f0801d4;
-		public static final int view_tree_view_model_store_owner = 0x7f0801d5;
-		public static final int visible_removing_fragment_view_tag = 0x7f0801d7;
+		public static final int text = 0x7f0801a8;
+		public static final int text2 = 0x7f0801a9;
+		public static final int time = 0x7f0801b9;
+		public static final int title = 0x7f0801ba;
+		public static final int view_tree_lifecycle_owner = 0x7f0801d2;
+		public static final int view_tree_saved_state_registry_owner = 0x7f0801d3;
+		public static final int view_tree_view_model_store_owner = 0x7f0801d4;
+		public static final int visible_removing_fragment_view_tag = 0x7f0801d6;
 	}
 	public static final class integer {
 		public static final int status_bar_notification_info_maxnum = 0x7f09001b;

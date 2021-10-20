@@ -8,6 +8,7 @@ attr;/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/De
 background;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 background;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
 bitmap;obj/Debug/res/drawable/splash_screen.xml
+Button;obj/Debug/res/layout/fragment_main.xml
 color;obj/Debug/res/drawable/splash_screen.xml
 color;obj/Debug/res/values/colors.xml
 color;obj/Debug/res/values/ic_launcher_background.xml

@@ -1,12 +1,17 @@
 ﻿<Properties StartupConfiguration="{295FFF3D-E5CA-435D-A34D-9889AC81C710}|Default">
   <MonoDevelop.Ide.ItemProperties.BeerApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.ItemProperties.BeerApp FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/BeerApp.Core/ViewModels/Main/MainViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/BeerApp.Droid/Views/Main/MainFragment.cs">
     <Files>
-      <File FileName="src/BeerApp.Droid/Views/Main/MainFragment.cs" Line="24" Column="57" />
-      <File FileName="src/BeerApp.Core/ActionCreators/FetchFoodParingBeerDataActionCreator.cs" Line="20" Column="41" />
-      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModel.cs" Line="30" Column="50" />
-      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModelViewState.cs" Line="27" Column="55" />
+      <File FileName="src/BeerApp.Droid/Views/Main/MainFragment.cs" Line="33" Column="1" />
+      <File FileName="src/BeerApp.Core/ActionCreators/FetchFoodParingBeerDataActionCreator.cs" Line="34" Column="22" />
+      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModel.cs" Line="47" Column="28" />
+      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModelViewState.cs" Line="54" Column="30" />
+      <File FileName="src/BeerApp.Droid/Resources/layout/fragment_main.axml" Line="29" Column="22" />
+      <File FileName="src/BeerApp.Core/ViewModels/Main/MainContainerViewModel.cs" Line="10" Column="55" />
+      <File FileName="src/BeerApp.Droid/Views/Main/MainContainerActivity.cs" Line="10" Column="65" />
+      <File FileName="src/BeerApp.Core/Reducer/MainReducer.cs" Line="39" Column="45" />
+      <File FileName="src/BeerApp.Core/Actions/LoadingFoodParingBeerDataAction.cs" Line="8" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,14 +26,17 @@
               <Node name="Services" expanded="True" />
               <Node name="States" expanded="True" />
               <Node name="ViewModels" expanded="True">
-                <Node name="Main" expanded="True">
-                  <Node name="MainViewModel.cs" selected="True" />
-                </Node>
+                <Node name="Main" expanded="True" />
               </Node>
             </Node>
             <Node name="BeerApp.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Main" expanded="True" />
+                <Node name="Main" expanded="True">
+                  <Node name="MainFragment.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -36,7 +44,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BeerApp.Droid PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.BeerApp.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

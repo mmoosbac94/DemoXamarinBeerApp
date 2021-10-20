@@ -3,6 +3,7 @@ using System.Windows.Input;
 using BeerApp.Core.ActionCreators;
 using MvvmCross.Commands;
 using System;
+using Android.Util;
 
 namespace BeerApp.Core.ViewModels.Main
 {
@@ -43,7 +44,7 @@ namespace BeerApp.Core.ViewModels.Main
 
                     if (dataState.LoadedBeerList != null)
                     {
-                        //TODO: SHOW LIST OF BEER
+                        Test = "Changed!";
                     }
 
                     if (dataState.AnErrorOccurred)

@@ -16,6 +16,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Redux.NET": "2.0.0",
           "System.Text.Json": "5.0.2",
+          "redux.NET-thunk": "0.1.0",
           "Mono.Android": "0.0.0.0"
         },
         "runtime": {
@@ -178,6 +179,17 @@
           "lib/netstandard1.1/Redux.dll": {
             "assemblyVersion": "1.0.1.0",
             "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "redux.NET-thunk/0.1.0": {
+        "dependencies": {
+          "Redux.NET": "2.0.0"
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45/thunk.NET.dll": {
+            "assemblyVersion": "0.1.5833.25725",
+            "fileVersion": "0.1.5833.25725"
           }
         }
       },
@@ -762,6 +774,13 @@
       "sha512": "sha512-lxAvhgc6tIK2hSMEIdkjvnVE6eXmSjbdpqzj88n8qmMmi9U1Iw2UnGVZjCAhyDQVDE8x75Qu4pZiWuLsl+uOeA==",
       "path": "redux.net/2.0.0",
       "hashPath": "redux.net.2.0.0.nupkg.sha512"
+    },
+    "redux.NET-thunk/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yKfm9mJ7d8fC+uuNWs6by17MTo3qVztZl0dnWnrjNmJqNgAsCU3/1ZijwoJVNQKF/+psqxeifUzyMZpb1QgbSQ==",
+      "path": "redux.net-thunk/0.1.0",
+      "hashPath": "redux.net-thunk.0.1.0.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

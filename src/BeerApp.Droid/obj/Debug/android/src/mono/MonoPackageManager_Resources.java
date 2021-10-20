@@ -29,6 +29,7 @@ public class MonoPackageManager_Resources {
 		"System.Reactive.PlatformServices.dll",
 		"System.Text.Encodings.Web.dll",
 		"System.Text.Json.dll",
+		"thunk.NET.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

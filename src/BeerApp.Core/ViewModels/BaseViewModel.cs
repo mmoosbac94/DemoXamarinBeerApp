@@ -11,10 +11,15 @@ namespace BeerApp.Core.ViewModels
 
         protected abstract void DisposeSubscriptions();
 
+        protected abstract void InitDefaultValues();
+
         public override void ViewAppearing()
         {
             base.ViewAppearing();
+            InitDefaultValues();
             RegisterAtStore();
+            
+
         }
 
         public override void ViewDisappeared()

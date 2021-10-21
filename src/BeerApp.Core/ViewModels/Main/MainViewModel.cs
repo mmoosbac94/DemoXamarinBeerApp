@@ -44,7 +44,7 @@ namespace BeerApp.Core.ViewModels.Main
 
                     if (dataState.LoadedBeerList != null)
                     {
-                        Test = "Changed!";
+                        BeerList = dataState.LoadedBeerList;
                     }
 
                     if (dataState.AnErrorOccurred)
@@ -61,5 +61,9 @@ namespace BeerApp.Core.ViewModels.Main
             _storeSubscription.Dispose();
         }
 
+        protected override void InitDefaultValues()
+        {
+            Test = "TestValue";
+        }
     }
 }

@@ -24,7 +24,7 @@ namespace BeerApp.Droid.Views
         {
             base.OnCreateView(inflater, container, savedInstanceState);
 
-            return this.BindingInflate(FragmentLayoutId, container, false);
+            return this.BindingInflate(FragmentLayoutId, null);
         }
     }
 }

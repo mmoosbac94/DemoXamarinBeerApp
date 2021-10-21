@@ -17,6 +17,7 @@ using MvvmCross.Platforms.Android.Presenters.Attributes;
 namespace BeerApp.Droid.Views.Main
 {
     [MvxFragmentPresentation(typeof(MainContainerViewModel), Resource.Id.content_frame)]
+    [Register(nameof(MainFragment))]
     public class MainFragment : BaseFragment<MainViewModel>
     {
 
@@ -24,17 +25,25 @@ namespace BeerApp.Droid.Views.Main
 
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            base.OnCreateView(inflater, container, savedInstanceState);
+            View mainView = base.OnCreateView(inflater, container, savedInstanceState);
 
-            View mainView = this.BindingInflate(Resource.Layout.fragment_main, container, false);
 
-            Button testButton = mainView.FindViewById<Button>(Resource.Id.testButton);
-            testButton.Click += delegate {
-                ViewModel.GetFoodParingBeerData.Execute("cheese");
+            SearchView searchBar = mainView.FindViewById<SearchView>(Resource.Id.search_bar_food);
+
+            searchBar.QueryTextChange += delegate
+            {
+                ViewModel.GetFoodParingBeerData.Execute(searchBar.Query);
             };
+
+
+            //Button testButton = mainView.FindViewById<Button>(Resource.Id.testButton);
+            //testButton.Click += delegate {
+            //    ViewModel.GetFoodParingBeerData.Execute("cheese");
+            //};
 
             return mainView;
 
         }
     }
+
 }

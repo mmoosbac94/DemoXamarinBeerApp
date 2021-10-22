@@ -22,7 +22,9 @@ namespace BeerApp.Core.ActionCreators
             return new ThunkAction<DataState>((dispatch, getState) =>
             {
                 var fetchBeerTask = Task.Run(() => beerRepository.GetFoodParingBeerDataAsync(food));
+
                 dispatch(new LoadingFoodParingBeerDataAction());
+
                 fetchBeerTask.ContinueWith((fetchBeerTask) =>
                 {
                     if (fetchBeerTask.Exception != null)

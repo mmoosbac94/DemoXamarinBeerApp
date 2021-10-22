@@ -10,6 +10,9 @@ namespace BeerApp.Core.Models
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
+        [JsonPropertyName("image_url")]
+        public string ImgURL { get; set; }
+
         [JsonPropertyName("food_pairing")]
         public List<string> FoodPairing { set; get; } = new List<string>();
     }

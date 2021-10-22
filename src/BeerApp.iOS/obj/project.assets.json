@@ -171,6 +171,36 @@
           "lib/xamarinios10/MvvmCross.dll": {}
         }
       },
+      "MvvmCross.Plugin.File/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Visibility/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "8.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -533,6 +563,29 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
       "BeerApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -540,9 +593,12 @@
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "MvvmCross": "8.0.2",
+          "MvvmCross.Plugin.File": "7.0.1",
+          "MvvmCross.Plugin.Visibility": "8.0.2",
           "Newtonsoft.Json": "13.0.1",
           "Redux.NET": "2.0.0",
           "System.Text.Json": "5.0.2",
+          "Xamarin.FFImageLoading": "2.4.11.982",
           "redux.NET-thunk": "0.1.0"
         },
         "compile": {
@@ -723,6 +779,36 @@
           "lib/xamarinios10/MvvmCross.dll": {}
         }
       },
+      "MvvmCross.Plugin.File/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Visibility/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "8.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -1085,6 +1171,29 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
       "BeerApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1092,9 +1201,12 @@
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "MvvmCross": "8.0.2",
+          "MvvmCross.Plugin.File": "7.0.1",
+          "MvvmCross.Plugin.Visibility": "8.0.2",
           "Newtonsoft.Json": "13.0.1",
           "Redux.NET": "2.0.0",
           "System.Text.Json": "5.0.2",
+          "Xamarin.FFImageLoading": "2.4.11.982",
           "redux.NET-thunk": "0.1.0"
         },
         "compile": {
@@ -1275,6 +1387,36 @@
           "lib/xamarinios10/MvvmCross.dll": {}
         }
       },
+      "MvvmCross.Plugin.File/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Visibility/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "8.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -1637,6 +1779,29 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
       "BeerApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1644,9 +1809,12 @@
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "MvvmCross": "8.0.2",
+          "MvvmCross.Plugin.File": "7.0.1",
+          "MvvmCross.Plugin.Visibility": "8.0.2",
           "Newtonsoft.Json": "13.0.1",
           "Redux.NET": "2.0.0",
           "System.Text.Json": "5.0.2",
+          "Xamarin.FFImageLoading": "2.4.11.982",
           "redux.NET-thunk": "0.1.0"
         },
         "compile": {
@@ -1827,6 +1995,36 @@
           "lib/xamarinios10/MvvmCross.dll": {}
         }
       },
+      "MvvmCross.Plugin.File/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.File.dll": {}
+        }
+      },
+      "MvvmCross.Plugin.Visibility/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "8.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -2189,6 +2387,29 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "WebP.Touch/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "WebP.Touch": "1.0.8"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/FFImageLoading.Platform.dll": {},
+          "lib/Xamarin.iOS10/FFImageLoading.dll": {}
+        }
+      },
       "BeerApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2196,9 +2417,12 @@
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "MvvmCross": "8.0.2",
+          "MvvmCross.Plugin.File": "7.0.1",
+          "MvvmCross.Plugin.Visibility": "8.0.2",
           "Newtonsoft.Json": "13.0.1",
           "Redux.NET": "2.0.0",
           "System.Text.Json": "5.0.2",
+          "Xamarin.FFImageLoading": "2.4.11.982",
           "redux.NET-thunk": "0.1.0"
         },
         "compile": {
@@ -2438,6 +2662,94 @@
         "mvvmcross.8.0.2.nupkg.sha512",
         "mvvmcross.nuspec",
         "readme.txt"
+      ]
+    },
+    "MvvmCross.Plugin.File/7.0.1": {
+      "sha512": "KvY/6VmSY1xcyRMz2SXtFiEw9IsVDBeKkvU4g6yDjO3m5lKxYK0Pz9pzw0rOoG31ybaF5BIRXODhA4rN7t3qDg==",
+      "type": "package",
+      "path": "mvvmcross.plugin.file/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid10.0/MvvmCross.Plugin.File.dll",
+        "lib/monoandroid10.0/MvvmCross.Plugin.File.pdb",
+        "lib/monoandroid10.0/MvvmCross.Plugin.File.xml",
+        "lib/net461/MvvmCross.Plugin.File.dll",
+        "lib/net461/MvvmCross.Plugin.File.pdb",
+        "lib/net461/MvvmCross.Plugin.File.xml",
+        "lib/netcoreapp3.1/MvvmCross.Plugin.File.dll",
+        "lib/netcoreapp3.1/MvvmCross.Plugin.File.pdb",
+        "lib/netcoreapp3.1/MvvmCross.Plugin.File.xml",
+        "lib/netstandard2.0/MvvmCross.Plugin.File.dll",
+        "lib/netstandard2.0/MvvmCross.Plugin.File.pdb",
+        "lib/netstandard2.0/MvvmCross.Plugin.File.xml",
+        "lib/tizen40/MvvmCross.Plugin.File.dll",
+        "lib/tizen40/MvvmCross.Plugin.File.pdb",
+        "lib/tizen40/MvvmCross.Plugin.File.xml",
+        "lib/uap10.0.16299/MvvmCross.Plugin.File.dll",
+        "lib/uap10.0.16299/MvvmCross.Plugin.File.pdb",
+        "lib/uap10.0.16299/MvvmCross.Plugin.File.pri",
+        "lib/uap10.0.16299/MvvmCross.Plugin.File.xml",
+        "lib/xamarinios10/MvvmCross.Plugin.File.dll",
+        "lib/xamarinios10/MvvmCross.Plugin.File.pdb",
+        "lib/xamarinios10/MvvmCross.Plugin.File.xml",
+        "lib/xamarinmac20/MvvmCross.Plugin.File.dll",
+        "lib/xamarinmac20/MvvmCross.Plugin.File.pdb",
+        "lib/xamarinmac20/MvvmCross.Plugin.File.xml",
+        "lib/xamarintvos10/MvvmCross.Plugin.File.dll",
+        "lib/xamarintvos10/MvvmCross.Plugin.File.pdb",
+        "lib/xamarintvos10/MvvmCross.Plugin.File.xml",
+        "lib/xamarinwatchos10/MvvmCross.Plugin.File.dll",
+        "lib/xamarinwatchos10/MvvmCross.Plugin.File.pdb",
+        "lib/xamarinwatchos10/MvvmCross.Plugin.File.xml",
+        "mvvmcross.plugin.file.7.0.1.nupkg.sha512",
+        "mvvmcross.plugin.file.nuspec"
+      ]
+    },
+    "MvvmCross.Plugin.Visibility/8.0.2": {
+      "sha512": "5BIWxxfMQVne6mAchAPu9R9FrQIrjyKaNjHb5EMq/IwAz4cGTOxYdbP600U3Ssst7kVvSzeCANqMiNENxkf5cg==",
+      "type": "package",
+      "path": "mvvmcross.plugin.visibility/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid10.0/MvvmCross.Plugin.Visibility.dll",
+        "lib/monoandroid10.0/MvvmCross.Plugin.Visibility.pdb",
+        "lib/monoandroid10.0/MvvmCross.Plugin.Visibility.xml",
+        "lib/net461/MvvmCross.Plugin.Visibility.dll",
+        "lib/net461/MvvmCross.Plugin.Visibility.pdb",
+        "lib/net461/MvvmCross.Plugin.Visibility.xml",
+        "lib/netcoreapp3.1/MvvmCross.Plugin.Visibility.dll",
+        "lib/netcoreapp3.1/MvvmCross.Plugin.Visibility.pdb",
+        "lib/netcoreapp3.1/MvvmCross.Plugin.Visibility.xml",
+        "lib/netstandard2.0/MvvmCross.Plugin.Visibility.dll",
+        "lib/netstandard2.0/MvvmCross.Plugin.Visibility.pdb",
+        "lib/netstandard2.0/MvvmCross.Plugin.Visibility.xml",
+        "lib/tizen40/MvvmCross.Plugin.Visibility.dll",
+        "lib/tizen40/MvvmCross.Plugin.Visibility.pdb",
+        "lib/tizen40/MvvmCross.Plugin.Visibility.xml",
+        "lib/uap10.0.16299/MvvmCross.Plugin.Visibility.dll",
+        "lib/uap10.0.16299/MvvmCross.Plugin.Visibility.pdb",
+        "lib/uap10.0.16299/MvvmCross.Plugin.Visibility.pri",
+        "lib/uap10.0.16299/MvvmCross.Plugin.Visibility.xml",
+        "lib/xamarinios10/MvvmCross.Plugin.Visibility.dll",
+        "lib/xamarinios10/MvvmCross.Plugin.Visibility.pdb",
+        "lib/xamarinios10/MvvmCross.Plugin.Visibility.xml",
+        "lib/xamarinmac20/MvvmCross.Plugin.Visibility.dll",
+        "lib/xamarinmac20/MvvmCross.Plugin.Visibility.pdb",
+        "lib/xamarinmac20/MvvmCross.Plugin.Visibility.xml",
+        "lib/xamarintvos10/MvvmCross.Plugin.Visibility.dll",
+        "lib/xamarintvos10/MvvmCross.Plugin.Visibility.pdb",
+        "lib/xamarintvos10/MvvmCross.Plugin.Visibility.xml",
+        "lib/xamarinwatchos10/MvvmCross.Plugin.Visibility.dll",
+        "lib/xamarinwatchos10/MvvmCross.Plugin.Visibility.pdb",
+        "lib/xamarinwatchos10/MvvmCross.Plugin.Visibility.xml",
+        "mvvmcross.plugin.visibility.8.0.2.nupkg.sha512",
+        "mvvmcross.plugin.visibility.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.1": {
@@ -3873,6 +4185,84 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "WebP.Touch/1.0.8": {
+      "sha512": "dvQaAn+m7cKL6k+evUilgikvrnk2qBm/h2lduAHFYIJFaJNIk9Z8pUI09gImzVKx5leUdvtLEzcLOOZAabspTA==",
+      "type": "package",
+      "path": "webp.touch/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.Mac20/WebP.Mac.dll",
+        "lib/Xamarin.Mac20/WebP.Mac.xml",
+        "lib/Xamarin.iOS10/WebP.Touch.dll",
+        "lib/Xamarin.iOS10/WebP.Touch.xml",
+        "webp.touch.1.0.8.nupkg.sha512",
+        "webp.touch.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading/2.4.11.982": {
+      "sha512": "M0sNIQgUPs+le6C2TS4RmZQAURnzaRVizRtnZIZ6/1//qGcEAtEXAGt/tBJz6I1zlP6XlMxq8io6b4sjFP5N9Q==",
+      "type": "package",
+      "path": "xamarin.ffimageloading/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.dll",
+        "lib/MonoAndroid10/FFImageLoading.pdb",
+        "lib/MonoAndroid10/FFImageLoading.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.xml",
+        "lib/netstandard1.0/FFImageLoading.Platform.dll",
+        "lib/netstandard1.0/FFImageLoading.Platform.xml",
+        "lib/netstandard1.0/FFImageLoading.dll",
+        "lib/netstandard1.0/FFImageLoading.pdb",
+        "lib/netstandard1.0/FFImageLoading.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.xml",
+        "lib/tizen40/FFImageLoading.Platform.dll",
+        "lib/tizen40/FFImageLoading.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Platform.xml",
+        "lib/tizen40/FFImageLoading.dll",
+        "lib/tizen40/FFImageLoading.pdb",
+        "lib/tizen40/FFImageLoading.xml",
+        "lib/uap/FFImageLoading.Platform.dll",
+        "lib/uap/FFImageLoading.Platform.pdb",
+        "lib/uap/FFImageLoading.Platform.xml",
+        "lib/uap/FFImageLoading.dll",
+        "lib/uap/FFImageLoading.pdb",
+        "lib/uap/FFImageLoading.xml",
+        "lib/win81/FFImageLoading.Platform.dll",
+        "lib/win81/FFImageLoading.Platform.pdb",
+        "lib/win81/FFImageLoading.Platform.xml",
+        "lib/win81/FFImageLoading.dll",
+        "lib/win81/FFImageLoading.pdb",
+        "lib/win81/FFImageLoading.xml",
+        "lib/wpa81/FFImageLoading.Platform.dll",
+        "lib/wpa81/FFImageLoading.Platform.pdb",
+        "lib/wpa81/FFImageLoading.Platform.xml",
+        "lib/wpa81/FFImageLoading.dll",
+        "lib/wpa81/FFImageLoading.pdb",
+        "lib/wpa81/FFImageLoading.xml",
+        "xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.nuspec"
+      ]
+    },
     "BeerApp.Core/1.0.0": {
       "type": "project",
       "path": "../BeerApp.Core/BeerApp.Core.csproj",
@@ -3886,11 +4276,14 @@
       "Microsoft.AspNetCore.Http >= 2.2.2",
       "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
       "MvvmCross >= 8.0.2",
+      "MvvmCross.Plugin.File >= 7.0.1",
+      "MvvmCross.Plugin.Visibility >= 8.0.2",
       "Newtonsoft.Json >= 13.0.1",
       "Redux.NET >= 2.0.0",
       "Serilog.Extensions.Logging >= 3.0.1",
       "Serilog.Sinks.Xamarin >= 0.2.0.64",
       "System.Text.Json >= 5.0.2",
+      "Xamarin.FFImageLoading >= 2.4.11.982",
       "redux.NET-thunk >= 0.1.0"
     ]
   },
@@ -3945,6 +4338,14 @@
             "target": "Package",
             "version": "[8.0.2, )"
           },
+          "MvvmCross.Plugin.File": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
+          "MvvmCross.Plugin.Visibility": {
+            "target": "Package",
+            "version": "[8.0.2, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
@@ -3964,6 +4365,10 @@
           "System.Text.Json": {
             "target": "Package",
             "version": "[5.0.2, )"
+          },
+          "Xamarin.FFImageLoading": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
           },
           "redux.NET-thunk": {
             "target": "Package",

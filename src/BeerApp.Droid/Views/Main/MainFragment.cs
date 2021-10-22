@@ -30,16 +30,11 @@ namespace BeerApp.Droid.Views.Main
 
             SearchView searchBar = mainView.FindViewById<SearchView>(Resource.Id.search_bar_food);
 
+
             searchBar.QueryTextChange += delegate
             {
                 ViewModel.GetFoodParingBeerData.Execute(searchBar.Query);
             };
-
-
-            //Button testButton = mainView.FindViewById<Button>(Resource.Id.testButton);
-            //testButton.Click += delegate {
-            //    ViewModel.GetFoodParingBeerData.Execute("cheese");
-            //};
 
             return mainView;
 

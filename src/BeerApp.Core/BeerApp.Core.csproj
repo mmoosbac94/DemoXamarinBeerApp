@@ -13,6 +13,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Text.Json" Version="5.0.2" />
     <PackageReference Include="redux.NET-thunk" Version="0.1.0" />
+    <PackageReference Include="MvvmCross.Plugin.Visibility" Version="8.0.2" />
+    <PackageReference Include="MvvmCross.Plugin.File" Version="7.0.1" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Redux.NET" />
@@ -28,6 +31,9 @@
     <None Remove="Reducer\" />
     <None Remove="redux.NET-thunk" />
     <None Remove="States\" />
+    <None Remove="MvvmCross.Plugin.Visibility" />
+    <None Remove="MvvmCross.Plugin.File" />
+    <None Remove="Xamarin.FFImageLoading" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />

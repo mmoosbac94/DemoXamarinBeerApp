@@ -28,32 +28,16 @@ namespace BeerApp.Core.ViewModels.Main
             }
         }
 
-        private bool _showErrorMessage;
-        public bool ShowErrorMessage
-        {
-            get => _showErrorMessage;
-            set
-            {
-                _showErrorMessage = value;
-                RaisePropertyChanged(() => ShowErrorMessage);
-            }
-        }
-
-
-
-
-
-
-        private string _test;
-        public string Test
-        {
-            get => _test;
-            set
-            {
-                _test = value;
-                RaisePropertyChanged(() => Test);
-            }
-        }
+        //private bool _showErrorMessage;
+        //public bool ShowErrorMessage
+        //{
+        //    get => _showErrorMessage;
+        //    set
+        //    {
+        //        _showErrorMessage = value;
+        //        RaisePropertyChanged(() => ShowErrorMessage);
+        //    }
+        //}
 
     }
 }

@@ -122,6 +122,15 @@
     <PackageReference Include="MvvmCross.DroidX.RecyclerView">
       <Version>8.0.2</Version>
     </PackageReference>
+    <PackageReference Include="MvvmCross.Plugin.Visibility">
+      <Version>8.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Plugin.File">
+      <Version>7.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProguardConfiguration Include="proguard.cfg" />

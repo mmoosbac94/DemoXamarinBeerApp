@@ -19,6 +19,28 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"/>
 
+	<androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/pb"
+		local:MvxBind="Visibility Visibility(IsLoading)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"/>
+
+	<!--<TextView
+		local:MvxBind="Visibility Visibility(IsLoading)"
+		android:id="@+id/beer_loading_indicator"
+		android:text="...LOADING BEER..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"/>-->
+
 
 	<MvvmCross.DroidX.RecyclerView.MvxRecyclerView
 		android:id="@+id/beer_recycler"
@@ -29,7 +51,6 @@
 		app:layout_constraintBottom_toBottomOf="parent"
 		android:scrollbars="vertical"
 		local:MvxItemTemplate="@layout/beer_item_row"
-		local:MvxBind="ItemsSource BeerList"
-		/>
+		local:MvxBind="ItemsSource BeerList; Visibility Visibility(BeerList)"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

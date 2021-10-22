@@ -50,6 +50,14 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "MvvmCross.Plugin.File": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MvvmCross.Plugin.Visibility": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -67,6 +75,10 @@
             "System.Text.Json": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Xamarin.FFImageLoading": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "redux.NET-thunk": {
               "target": "Package",

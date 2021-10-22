@@ -4,6 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "BeerApp.Droid.dll" comes first in this list. */
 		"BeerApp.Droid.dll",
 		"BeerApp.Core.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Platform.dll",
 		"Microsoft.AspNetCore.Http.Abstractions.dll",
 		"Microsoft.AspNetCore.Http.dll",
 		"Microsoft.AspNetCore.Http.Features.dll",
@@ -18,6 +20,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Net.Http.Headers.dll",
 		"MvvmCross.dll",
 		"MvvmCross.DroidX.RecyclerView.dll",
+		"MvvmCross.Plugin.File.dll",
+		"MvvmCross.Plugin.Visibility.dll",
 		"Newtonsoft.Json.dll",
 		"Redux.dll",
 		"Serilog.dll",

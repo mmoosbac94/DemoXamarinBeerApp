@@ -30,22 +30,16 @@ namespace BeerApp.Core.ViewModels.Main
         protected override void RegisterAtStore()
         {
             _storeSubscription = StoreHolder.Instance.DataStore
-                .DistinctUntilChanged(dataState => new {
+                .DistinctUntilChanged(dataState => new
+                {
                     dataState.AnErrorOccurred,
                     dataState.IsLoading,
                     dataState.LoadedBeerList
                 })
                 .Subscribe(dataState =>
                 {
-                    if (dataState.IsLoading)
-                    {
-                        //TODO: SHOW PROGRESS INDICATOR
-                    }
-
-                    if (dataState.LoadedBeerList != null)
-                    {
-                        BeerList = dataState.LoadedBeerList;
-                    }
+                    IsLoading = dataState.IsLoading;
+                    BeerList = dataState.LoadedBeerList;
 
                     if (dataState.AnErrorOccurred)
                     {
@@ -61,9 +55,8 @@ namespace BeerApp.Core.ViewModels.Main
             _storeSubscription.Dispose();
         }
 
-        protected override void InitDefaultValues()
-        {
-            Test = "TestValue";
+        protected override void InitDefaultValues() {
+
         }
     }
 }

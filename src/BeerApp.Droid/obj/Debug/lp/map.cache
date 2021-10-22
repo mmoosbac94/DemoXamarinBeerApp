@@ -1,6 +1,9 @@
 BeerApp.Core.dll
+FFImageLoading.Platform.dll
 MvvmCross.dll
 MvvmCross.DroidX.RecyclerView.dll
+MvvmCross.Plugin.File.dll
+MvvmCross.Plugin.Visibility.dll
 Serilog.Sinks.Xamarin.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

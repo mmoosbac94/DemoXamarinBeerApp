@@ -28,16 +28,16 @@ namespace BeerApp.Core.ViewModels.Main
             }
         }
 
-        //private bool _showErrorMessage;
-        //public bool ShowErrorMessage
-        //{
-        //    get => _showErrorMessage;
-        //    set
-        //    {
-        //        _showErrorMessage = value;
-        //        RaisePropertyChanged(() => ShowErrorMessage);
-        //    }
-        //}
+        private Exception _errorMessage;
+        public Exception ErrorMessage
+        {
+            get => _errorMessage;
+            set
+            {
+                _errorMessage = value;
+                RaisePropertyChanged(() => ErrorMessage);
+            }
+        }
 
     }
 }

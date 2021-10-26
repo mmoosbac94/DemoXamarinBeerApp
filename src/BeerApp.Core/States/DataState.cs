@@ -8,18 +8,18 @@ namespace BeerApp.Core.States
     {
         public bool IsLoading { get; }
         public List<Beer> LoadedBeerList { get; }
-        public bool AnErrorOccurred { get; }
+        public Exception ErrorMessage { get; }
 
 
         public DataState(
             bool isLoading = false,
             List<Beer> loadedBeerList = null,
-            bool anErrorOccurred = false
+            Exception errorMessage = null
         )
         {
             IsLoading = isLoading;
             LoadedBeerList = loadedBeerList;
-            AnErrorOccurred = anErrorOccurred;
+            ErrorMessage = errorMessage;
             
         }
     }

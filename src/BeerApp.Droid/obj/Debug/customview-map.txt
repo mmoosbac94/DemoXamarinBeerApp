@@ -36,6 +36,7 @@ LinearLayout;obj/Debug/res/layout/beer_item_row.xml
 LinearLayout;obj/Debug/res/layout/details_beer_item_row.xml
 LinearLayout;obj/Debug/res/layout/fragment_beer_details.xml
 ListView;obj/Debug/res/layout/fragment_beer_details.xml
+mvvmcross.droidx.recyclerview.MvxRecyclerView;obj/Debug/res/layout/fragment_beer_details.xml
 mvvmcross.droidx.recyclerview.MvxRecyclerView;obj/Debug/res/layout/fragment_main.xml
 MvvmCross.DroidX.RecyclerView.MvxRecyclerView;obj/Debug/res/layout/fragment_beer_details.xml
 MvvmCross.DroidX.RecyclerView.MvxRecyclerView;obj/Debug/res/layout/fragment_main.xml
@@ -60,5 +61,6 @@ style;obj/Debug/res/values-v21/styles.xml
 TextView;obj/Debug/res/layout/beer_item_row.xml
 TextView;obj/Debug/res/layout/details_beer_item_row.xml
 TextView;obj/Debug/res/layout/fragment_beer_details.xml
+TextView;obj/Debug/res/layout/fragment_main.xml
 TextView;obj/Debug/res/layout/layout_toolbar.xml
 vector;obj/Debug/res/drawable/ic_launcher_foreground.xml

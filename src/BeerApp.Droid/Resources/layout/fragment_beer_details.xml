@@ -5,48 +5,50 @@
 	xmlns:local="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent">
-
-<LinearLayout
-	android:background="@color/abc_search_url_text_normal"
-	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:orientation="vertical">
+	android:fillViewport="true">
 
-	<TextView
-		android:gravity="center"
-		android:textStyle="bold"
-		tools:text="BeerName"
-		android:fontFamily="sans-serif-condensed"
-		android:textSize="80px"
+	<LinearLayout
+		android:background="@android:color/holo_green_dark"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_marginBottom="100px"
-		android:layout_marginTop="120px"
-		local:MvxBind="Text BeerName" />
+		android:orientation="vertical">
 
-	<ffimageloading.cross.MvxCachedImageView
-		android:id="@+id/beer_image"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_gravity="center"
-		android:layout_marginBottom="130px"
-		local:MvxBind="ImagePath BeerURL"/>
+		<TextView
+			android:gravity="center"
+			android:textStyle="bold"
+			tools:text="BeerName"
+			android:fontFamily="sans-serif-condensed"
+			android:textSize="80px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="100px"
+			android:layout_marginTop="120px"
+			local:MvxBind="Text BeerName" />
 
-	<TextView
-		android:text="Dishes"
-		android:textSize="70px"
-		android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-		android:layout_marginBottom="50px"/>
+		<ffimageloading.cross.MvxCachedImageView
+			android:id="@+id/beer_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="130px"
+			local:MvxBind="ImagePath BeerURL"/>
 
-	<MvvmCross.DroidX.RecyclerView.MvxRecyclerView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        local:MvxItemTemplate="@layout/details_beer_item_row"
-        local:MvxBind="ItemsSource FoodPairing" />
+		<TextView
+			android:text="Dishes"
+			android:textSize="70px"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50px"/>
 
+		<MvvmCross.DroidX.RecyclerView.MvxRecyclerView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			local:MvxItemTemplate="@layout/details_beer_item_row"
+			local:MvxBind="ItemsSource FoodPairing" />
+		<!--
+-->
 	</LinearLayout>
 
-	</ScrollView>
+</ScrollView>

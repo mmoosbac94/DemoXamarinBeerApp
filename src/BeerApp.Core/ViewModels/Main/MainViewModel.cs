@@ -51,7 +51,7 @@ namespace BeerApp.Core.ViewModels.Main
             _storeSubscription = StoreHolder.Instance.DataStore
                 .DistinctUntilChanged(dataState => new
                 {
-                    dataState.AnErrorOccurred,
+                    dataState.ErrorMessage,
                     dataState.IsLoading,
                     dataState.LoadedBeerList
                 })
@@ -60,9 +60,10 @@ namespace BeerApp.Core.ViewModels.Main
                     IsLoading = dataState.IsLoading;
                     BeerList = dataState.LoadedBeerList;
 
-                    if (dataState.AnErrorOccurred)
+                    if (dataState.ErrorMessage != null)
                     {
                         //TODO: SHOW ERROR MESSAGE
+                        ErrorMessage = dataState.ErrorMessage;
                     }
                 }
 

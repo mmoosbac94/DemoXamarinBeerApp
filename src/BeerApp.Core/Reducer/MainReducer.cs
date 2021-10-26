@@ -15,9 +15,9 @@ namespace BeerApp.Core.Reducer
                 return new DataState(isLoading: true);
             }
 
-            if (action is FoodParingBeerDataErrorAction)
+            if (action is FoodParingBeerDataErrorAction action2)
             {
-                return new DataState(anErrorOccurred: true);
+                return new DataState(errorMessage: action2.Exception);
             }
 
             if (action is FoodParingBeerDataSuccessAction action1)

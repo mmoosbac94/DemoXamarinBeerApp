@@ -29,7 +29,7 @@ namespace BeerApp.Core.ActionCreators
                 {
                     if (fetchBeerTask.Exception != null)
                     {
-                        dispatch(new FoodParingBeerDataErrorAction());
+                        dispatch(new FoodParingBeerDataErrorAction(fetchBeerTask.Exception));
                         Log.Error("ERROR", "An error occurred while fetching beer data");
                     }
                     else if (fetchBeerTask.Result != null)
@@ -37,13 +37,6 @@ namespace BeerApp.Core.ActionCreators
                         dispatch(new FoodParingBeerDataSuccessAction(fetchBeerTask.Result));
                     }
                 });
-
-
-
-                //TODO: Repository in IoCProvider registrieren und anschließend
-                //  hier drauf zugreifen anstatt im MainViewModel?
-
-
             });
         }
     }

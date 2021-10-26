@@ -5,7 +5,7 @@ using MvvmCross.ViewModels;
 
 namespace BeerApp.Core.ViewModels
 {
-    public abstract class BaseViewModel : MvxViewModel
+    public abstract class BaseViewModel : MvxViewModel<object>
     {
         protected abstract void RegisterAtStore();
 

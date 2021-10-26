@@ -23,6 +23,7 @@
 		local:MvxBind="Text Name" />
 
 	<ffimageloading.cross.MvxCachedImageView
+		android:id="@+id/beer_image"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_gravity="center"

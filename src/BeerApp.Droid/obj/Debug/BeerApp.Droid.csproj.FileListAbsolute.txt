@@ -545,3 +545,7 @@
 /Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/android/src/crc64b75d9ddab39d6c30/LRUCache.java
 /Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/android/src/ffimageloading/cross/MvxCachedImageView.java
 /Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/android/src/ffimageloading/views/ImageViewAsync.java
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/res/layout/fragment_beer_details.xml
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/android/src/crc64965d9d9a0fcd53ee/BeerDetailsFragment.java
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/res/layout/details_beer_item_row.xml
+/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/android/src/BeerDetailsFragment.java

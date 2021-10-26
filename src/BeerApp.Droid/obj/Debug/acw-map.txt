@@ -7,6 +7,9 @@ beerapp.droid.views.BaseActivity_1;crc6465b117471a9cc96e.BaseActivity_1
 BeerApp.Droid.Views.BaseFragment`1, BeerApp.Droid;crc6465b117471a9cc96e.BaseFragment_1
 BeerApp.Droid.Views.BaseFragment`1;crc6465b117471a9cc96e.BaseFragment_1
 beerapp.droid.views.BaseFragment_1;crc6465b117471a9cc96e.BaseFragment_1
+BeerApp.Droid.Views.BeerDetails.BeerDetailsFragment, BeerApp.Droid;crc64965d9d9a0fcd53ee.BeerDetailsFragment
+BeerApp.Droid.Views.BeerDetails.BeerDetailsFragment;crc64965d9d9a0fcd53ee.BeerDetailsFragment
+beerapp.droid.views.beerdetails.BeerDetailsFragment;crc64965d9d9a0fcd53ee.BeerDetailsFragment
 BeerApp.Droid.Views.Splash.SplashActivity, BeerApp.Droid;crc64084e5c1a2d66ece3.SplashActivity
 BeerApp.Droid.Views.Splash.SplashActivity;crc64084e5c1a2d66ece3.SplashActivity
 beerapp.droid.views.splash.SplashActivity;crc64084e5c1a2d66ece3.SplashActivity

@@ -34,6 +34,7 @@
     <None Remove="MvvmCross.Plugin.Visibility" />
     <None Remove="MvvmCross.Plugin.File" />
     <None Remove="Xamarin.FFImageLoading" />
+    <None Remove="ViewModels\BeerDetails\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -43,6 +44,7 @@
     <Folder Include="Actions\" />
     <Folder Include="Reducer\" />
     <Folder Include="States\" />
+    <Folder Include="ViewModels\BeerDetails\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mono.Android">

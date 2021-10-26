@@ -4,13 +4,26 @@ using BeerApp.Core.ActionCreators;
 using MvvmCross.Commands;
 using System;
 using Android.Util;
+using MvvmCross.Navigation;
+using System.Threading.Tasks;
+using BeerApp.Core.ViewModels.BeerDetails;
+using BeerApp.Core.States;
+using BeerApp.Core.Models;
 
 namespace BeerApp.Core.ViewModels.Main
 {
     public partial class MainViewModel : BaseViewModel
     {
 
+        private readonly IMvxNavigationService _navigationService;
+
+        public MainViewModel(IMvxNavigationService navigationService)
+        {
+            _navigationService = navigationService;
+        }
+
         private IDisposable _storeSubscription;
+
 
         private ICommand _getFoodParingBeerData;
         public ICommand GetFoodParingBeerData
@@ -21,6 +34,12 @@ namespace BeerApp.Core.ViewModels.Main
                 return _getFoodParingBeerData;
             }
         }
+
+        private MvxCommand<Beer> _navigateToBeerDetailsCommand;
+        public MvxCommand<Beer> NavigateToBeerDetailsCommand => _navigateToBeerDetailsCommand ??=
+            new MvxCommand<Beer>(async (value) => await OnNavigateToBeerDetailsAsync(value));
+
+
 
         public void GetFoodParingBeerDataAsync(string food)
         {
@@ -50,12 +69,23 @@ namespace BeerApp.Core.ViewModels.Main
                 );
         }
 
+        public async Task OnNavigateToBeerDetailsAsync(Beer beer)
+        {
+            await _navigationService.Navigate<BeerDetailsViewModel, object>(beer);
+        }
+
         protected override void DisposeSubscriptions()
         {
             _storeSubscription.Dispose();
         }
 
-        protected override void InitDefaultValues() {
+        protected override void InitDefaultValues()
+        {
+
+        }
+
+        public override void Prepare(object parameter)
+        {
 
         }
     }

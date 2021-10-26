@@ -18,6 +18,8 @@ declare-styleable;/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp
 declare-styleable;/Users/m.moosbachersprinteins.com/Projects/BeerApp/src/BeerApp.Droid/obj/Debug/lp/3/jl/res/values/mvxrecyclerviewbindingattributes.xml
 dimen;obj/Debug/res/values/dimens.xml
 ffimageloading.cross.MvxCachedImageView;obj/Debug/res/layout/beer_item_row.xml
+ffimageloading.cross.MvxCachedImageView;obj/Debug/res/layout/details_beer_item_row.xml
+ffimageloading.cross.MvxCachedImageView;obj/Debug/res/layout/fragment_beer_details.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
 FrameLayout;obj/Debug/res/layout/activity_main_container.xml
@@ -31,7 +33,11 @@ item;obj/Debug/res/values-v19/styles.xml
 item;obj/Debug/res/values-v21/styles.xml
 layer-list;obj/Debug/res/drawable/splash_screen.xml
 LinearLayout;obj/Debug/res/layout/beer_item_row.xml
+LinearLayout;obj/Debug/res/layout/details_beer_item_row.xml
+LinearLayout;obj/Debug/res/layout/fragment_beer_details.xml
+ListView;obj/Debug/res/layout/fragment_beer_details.xml
 mvvmcross.droidx.recyclerview.MvxRecyclerView;obj/Debug/res/layout/fragment_main.xml
+MvvmCross.DroidX.RecyclerView.MvxRecyclerView;obj/Debug/res/layout/fragment_beer_details.xml
 MvvmCross.DroidX.RecyclerView.MvxRecyclerView;obj/Debug/res/layout/fragment_main.xml
 path;obj/Debug/res/drawable/ic_launcher_foreground.xml
 RelativeLayout;obj/Debug/res/layout/activity_main_container.xml
@@ -45,11 +51,14 @@ resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
 resources;obj/Debug/res/values-v19/styles.xml
 resources;obj/Debug/res/values-v21/styles.xml
+ScrollView;obj/Debug/res/layout/fragment_beer_details.xml
 SearchView;obj/Debug/res/layout/fragment_main.xml
 string;obj/Debug/res/values/strings.xml
 style;obj/Debug/res/values/styles.xml
 style;obj/Debug/res/values-v19/styles.xml
 style;obj/Debug/res/values-v21/styles.xml
 TextView;obj/Debug/res/layout/beer_item_row.xml
+TextView;obj/Debug/res/layout/details_beer_item_row.xml
+TextView;obj/Debug/res/layout/fragment_beer_details.xml
 TextView;obj/Debug/res/layout/layout_toolbar.xml
 vector;obj/Debug/res/drawable/ic_launcher_foreground.xml

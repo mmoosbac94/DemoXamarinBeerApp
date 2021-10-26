@@ -38,6 +38,6 @@ namespace BeerApp.Core.Reducer
 
         //TODO: Wozu dienen MvxInteractions?
 
-        //TODO: Beste Möglichkeit RecyclerView zu verwenden?
+        //TODO: Wozu dient Android View Presenter (MVVM Cross)
     }
 }

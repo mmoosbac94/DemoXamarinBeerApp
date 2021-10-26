@@ -16,7 +16,7 @@ using MvvmCross.Platforms.Android.Presenters.Attributes;
 
 namespace BeerApp.Droid.Views.Main
 {
-    [MvxFragmentPresentation(typeof(MainContainerViewModel), Resource.Id.content_frame)]
+    [MvxFragmentPresentation(typeof(MainContainerViewModel), Resource.Id.content_frame, AddToBackStack = true)]
     [Register(nameof(MainFragment))]
     public class MainFragment : BaseFragment<MainViewModel>
     {
@@ -27,9 +27,7 @@ namespace BeerApp.Droid.Views.Main
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View mainView = base.OnCreateView(inflater, container, savedInstanceState);
 
-
             SearchView searchBar = mainView.FindViewById<SearchView>(Resource.Id.search_bar_food);
-
 
             searchBar.QueryTextChange += delegate
             {

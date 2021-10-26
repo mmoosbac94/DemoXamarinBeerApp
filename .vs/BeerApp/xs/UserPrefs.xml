@@ -1,23 +1,23 @@
 ﻿<Properties StartupConfiguration="{295FFF3D-E5CA-435D-A34D-9889AC81C710}|Default">
   <MonoDevelop.Ide.ItemProperties.BeerApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.ItemProperties.BeerApp FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/BeerApp.Core/Services/ApiService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/BeerApp.Droid/Views/BeerDetails/BeerDetailsFragment.cs">
     <Files>
-      <File FileName="src/BeerApp.Droid/Resources/layout/fragment_main.axml" Line="54" Column="55" />
-      <File FileName="src/BeerApp.Droid/Views/Main/MainFragment.cs" Line="34" Column="50" />
-      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModel.cs" Line="51" Column="1" />
-      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModelViewState.cs" Line="40" Column="12" />
-      <File FileName="src/BeerApp.Core/ViewModels/Main/MainContainerViewModel.cs" Line="7" Column="47" />
-      <File FileName="src/BeerApp.Droid/Views/Main/MainContainerActivity.cs" Line="12" Column="80" />
-      <File FileName="src/BeerApp.Core/Reducer/MainReducer.cs" Line="8" Column="36" />
-      <File FileName="src/BeerApp.Core/Actions/LoadingFoodParingBeerDataAction.cs" Line="1" Column="1" />
-      <File FileName="src/BeerApp.Droid/Views/BaseFragment.cs" Line="23" Column="71" />
-      <File FileName="src/BeerApp.Droid/Views/BaseActivity.cs" Line="17" Column="77" />
-      <File FileName="src/BeerApp.Droid/Resources/layout/beer_item_row.xml" Line="18" Column="25" />
-      <File FileName="src/BeerApp.Core/Models/Beer.cs" Line="11" Column="41" />
-      <File FileName="src/BeerApp.Core/ActionCreators/FetchFoodParingBeerDataActionCreator.cs" Line="26" Column="57" />
-      <File FileName="src/BeerApp.Core/Repositories/BeerRepository.cs" Line="27" Column="51" />
-      <File FileName="src/BeerApp.Core/Services/ApiService.cs" Line="30" Column="23" />
+      <File FileName="src/BeerApp.Core/ViewModels/Main/MainContainerViewModel.cs" Line="7" Column="33" />
+      <File FileName="src/BeerApp.Droid/Views/BeerDetails/BeerDetailsFragment.cs" Line="13" Column="86" />
+      <File FileName="src/BeerApp.Droid/Views/Main/MainFragment.cs" Line="21" Column="54" />
+      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModel.cs" Line="15" Column="36" />
+      <File FileName="src/BeerApp.Core/ViewModels/Main/MainViewModelViewState.cs" Line="7" Column="26" />
+      <File FileName="src/BeerApp.Core/ViewModels/BeerDetails/BeerDetailsViewModel.cs" Line="14" Column="37" />
+      <File FileName="src/BeerApp.Core/ViewModels/BeerDetails/BeerDetailsViewModelState.cs" Line="29" Column="10" />
+      <File FileName="src/BeerApp.Droid/Resources/layout/fragment_beer_details.xml" Line="24" Column="38" />
+      <File FileName="src/BeerApp.Droid/Resources/layout/details_beer_item_row.xml" Line="17" Column="21" />
+      <File FileName="src/BeerApp.Core/Models/FoodPair.cs" />
+      <File FileName="src/BeerApp.Core/Models/Beer.cs" />
+      <File FileName="src/BeerApp.Droid/Resources/layout/beer_item_row.xml" Line="17" Column="44" />
+      <File FileName="src/BeerApp.Droid/Views/BaseActivity.cs" Line="17" Column="27" />
+      <File FileName="src/BeerApp.Droid/Setup.cs" Line="1" Column="1" />
+      <File FileName="src/BeerApp.Core/CustomAppStart.cs" Line="16" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,23 +29,24 @@
               <Node name="Models" expanded="True" />
               <Node name="Reducer" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="ApiService.cs" selected="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
               <Node name="States" expanded="True" />
               <Node name="ViewModels" expanded="True">
+                <Node name="BeerDetails" expanded="True" />
                 <Node name="Main" expanded="True" />
               </Node>
             </Node>
             <Node name="BeerApp.Droid" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="Packages" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
                 <Node name="layout" expanded="True" />
                 <Node name="values" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="BeerDetails" expanded="True">
+                  <Node name="BeerDetailsFragment.cs" selected="True" />
+                </Node>
                 <Node name="Main" expanded="True" />
               </Node>
             </Node>

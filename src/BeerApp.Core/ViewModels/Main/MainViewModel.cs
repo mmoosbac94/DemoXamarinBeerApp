@@ -63,7 +63,7 @@ namespace BeerApp.Core.ViewModels.Main
                     if (dataState.ErrorMessage != null)
                     {
                         //TODO: SHOW ERROR MESSAGE
-                        ErrorMessage = dataState.ErrorMessage;
+                        ErrorMessage = dataState.ErrorMessage.Message;
                     }
                 }
 

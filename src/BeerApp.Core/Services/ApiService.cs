@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BeerApp.Core.Models;
 using System.Text.Json;
 using System.Diagnostics;
+using Android.Util;
 
 namespace BeerApp.Core.Services
 {
@@ -26,25 +27,13 @@ namespace BeerApp.Core.Services
 
         public async Task<List<Beer>> GetFoodParingBeerDataAsync(string food)
         {
+
             var uri = new Uri($"{_rootURL}beers?food={food}");
-            var beerList = new List<Beer>();
 
-            try
-            {
-
-                HttpResponseMessage httpResponseMessage = await _client.GetAsync(uri);
-
-                if (httpResponseMessage.IsSuccessStatusCode)
-                {
-                    var content = await httpResponseMessage.Content.ReadAsStringAsync();
-                    beerList = JsonSerializer.Deserialize<List<Beer>>(content);
-                }
-
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine("Error: ", ex.Message);
-            }
+            HttpResponseMessage httpResponseMessage = await _client.GetAsync(uri);
+                
+            var content = await httpResponseMessage.Content.ReadAsStringAsync();
+            List<Beer> beerList = JsonSerializer.Deserialize<List<Beer>>(content);
 
             return beerList;
         }

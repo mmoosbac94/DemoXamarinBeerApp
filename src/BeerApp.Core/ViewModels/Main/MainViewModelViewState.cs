@@ -28,8 +28,8 @@ namespace BeerApp.Core.ViewModels.Main
             }
         }
 
-        private Exception _errorMessage;
-        public Exception ErrorMessage
+        private string _errorMessage;
+        public string ErrorMessage
         {
             get => _errorMessage;
             set

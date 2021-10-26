@@ -24,7 +24,8 @@ namespace BeerApp.Droid.Views.Main
         protected override int FragmentLayoutId => Resource.Layout.fragment_main;
 
 
-        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
             View mainView = base.OnCreateView(inflater, container, savedInstanceState);
 
             SearchView searchBar = mainView.FindViewById<SearchView>(Resource.Id.search_bar_food);
